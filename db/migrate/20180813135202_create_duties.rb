@@ -6,6 +6,6 @@ class CreateDuties < ActiveRecord::Migration[5.2]
 
       t.timestamps
     end
-    add_index :duties, [:employee_id, :create_at]
+    #add_index :duties, [:employee_id, :create_at]
   end
 end
